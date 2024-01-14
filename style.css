@@ -1,0 +1,34 @@
+body{
+    background-size:contain;
+}
+#dv{
+    background: rgba(255, 255, 255, 0.883);
+    font-size: 23px;
+    width: 50%;
+    margin-top: 10px;
+    padding: 10px;
+    color:rgb(35, 129, 129) ;
+}
+canvas{
+    border: 1px solid rgb(255, 255, 255);
+    animation-name:ani;
+    animation-duration:5s;
+    animation-iteration-count: infinite;
+}
+@keyframes ani{
+   from{
+    box-shadow: 1px 1px 50px white;
+   }
+   to{
+    box-shadow: 1px 1px 70px rgb(0, 187, 255);
+   }
+}
+
+#btn{
+    background-color: white;
+    font-size: large;
+    padding: 5px;
+    width: 10%;
+    border-radius: 10px;
+    box-shadow: 1px 1px 50px rgb(0, 187, 255);
+}
